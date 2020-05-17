@@ -1,0 +1,12 @@
+Instruction to run battleship application via command line
+
+1. Copy and past project artifact battleship-1.0-SNAPSHOT.jar and dependent library commons-lang3-3.10.jar under a directory 
+   such as ../test/battleship-1.0-SNAPSHOT.jar
+           ../test/commons-lang3-3.10.jar
+2. Under the directory, type in command to run the application
+   java -cp "./*;." ca.medihealth.practice.battleship.game.BattleshipGame
+   example: ../test/java -cp "./*;." ca.medihealth.practice.battleship.game.BattleshipGame
+   
+ Note: <classpath>(cp) - list of directories and/or JAR-files where needed classes reside separated by ";" for Windows 
+       or ":" for linux/IOS 
+       (default classpath is "." - the current directory)
